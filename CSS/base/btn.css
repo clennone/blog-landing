@@ -58,6 +58,7 @@
 .portfolio-btn:hover{
     background-color: var(--white);
     color: #000;
+   -webkit-appearance: none;
 }
 
 /*------------*/
@@ -73,4 +74,5 @@
     padding: 2rem;
     border-radius: 10%;
     font-size: 90%;
+   -webkit-appearance: none;
 }
