@@ -25,6 +25,11 @@
     text-decoration: none;
 }
 
+.header a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 .header-title h1:hover,
 .header .header-title-wide h1:hover{
     color: var(--third);
