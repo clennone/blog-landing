@@ -1,0 +1,64 @@
+.homepage{
+    padding: 0 0 8rem;
+    background-color: #e6e6e6;
+    border-top: .4rem solid var(--third);   
+}
+/*--main style--*/
+.main{
+    width: 100%;
+    margin: 2rem 0;
+}
+.main-article-cusco{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d";
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.363);
+}
+.main-title-cusco {
+    font-size: 3.6rem;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    margin: 1rem 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    grid-area: a;
+}
+.main-content-cusco{
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: .2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    margin: 2% 10%;
+    grid-area: b;
+}
+.figure-grid-cusco{
+    grid-area: c;
+    display: grid;
+    row-gap: 1rem;
+}
+.main-img-cusco{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+.cuscoImg {
+    width: 100%;
+    opacity: 0.8;
+}
+.main-img-cusco figcaption {
+    background-color: rgba(0, 0, 0, 0.212);
+    color: #fff;
+    font: smaller 'Lato', sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+
