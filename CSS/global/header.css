@@ -7,16 +7,30 @@
     grid-template-areas: 
         "title"
         "bar";
-    padding: 1rem;
+    padding: 1rem 1rem 4rem 1rem;
     background-color: #000;
 }    
 
 /* position header */
-.header-title{
+.header-title h1{
     grid-area: title;
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    padding: 5rem 0 2rem 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+    transition: 1s;
+}
+
+.header-title h1:hover,
+.header .header-title-wide h1:hover{
+    color: var(--third);
+}
+
+.header-title img{
+    width: 100%;
 }
 
 .header-title-wide{
@@ -67,7 +81,4 @@
     color: var(--black);
     cursor: pointer;
 }
-
-/* hide Home option */
-
 
